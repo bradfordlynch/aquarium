@@ -49,9 +49,10 @@ services:
 
     {% if tor %}
     tor:
-        image: jess/tor-proxy
+        image: blynch41/tor
         expose:
             - 9050
+            - 9051
         logging:
             driver: "none"
         restart: always
