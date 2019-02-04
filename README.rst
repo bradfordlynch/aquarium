@@ -1,5 +1,10 @@
-Aquarium
+Aquarium - US Proxies
 ========
+
+This is a version of the main Aquarium repo which uses a modified tor proxy which:
+
+    - Only uses exit nodes in the US
+    - Has the control port opened
 
 Aquarium is a cookiecuter_ template for hassle-free
 `Docker Compose`_ + Splash_ setup. Think of it as a Splash instance
@@ -24,7 +29,7 @@ or (on OS X + homebrew)::
 
 Then generate a folder with config files::
 
-    cookiecutter gh:TeamHG-Memex/aquarium
+    cookiecutter gh:blynch41/aquarium
 
 With all default options it'll create an ``aquarium`` folder in the current
 path. Go to this folder and start the Splash cluster::
